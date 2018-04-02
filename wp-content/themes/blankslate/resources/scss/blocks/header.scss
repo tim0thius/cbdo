@@ -1,0 +1,20 @@
+#block-header {
+	@include flex(stretch, center, row);
+	// height: 200px;
+}
+// #block-header__inner {
+// 	max-width: 1400px;
+// 	width: 100%;
+// }
+
+#block-header--menu {
+	& #menu-menu-1 {
+		@include flex(center, flex-end, row);
+		// min-height: 100px;
+	}
+
+	& .sub-menu {
+		display: none;
+	} 
+	
+}
