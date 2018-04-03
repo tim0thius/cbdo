@@ -10,3 +10,4 @@
 
 	# post types
 	require_once('functions/types/resource.php');
+	require_once('functions/types/casestudy.php');
