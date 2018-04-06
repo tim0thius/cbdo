@@ -1,5 +1,35 @@
 .block-highlight {
 	@include flex(center, center, column);
+
+	&--default {
+		padding: 120px 0;
+
+		// .grid {
+		// 	@include flex( center, center, row);
+		// }
+
+		.block-highlight__headline {
+			color: $BLUE;
+			font-family: $H2_FONT;
+			font-size: $H2_SIZE;
+			margin-bottom: 30px;
+		}
+		.block-highlight__content {
+			p {
+				color: $DARK_GREY;
+				font-family: $P_FONT;
+				font-size: $P_SIZE;
+				line-height: 36px;
+			}
+
+			a {
+				color: $BLUE;
+				font-family: $A_FONT;
+				font-size: $A_SIZE;
+			}
+
+		}
+	}
 }
 
 .block-highlight__main-image {
@@ -7,3 +37,14 @@
 	max-width: 100%;
 	width: 100%;
 }
+
+// Highlight_2
+#highlight_2 {
+	background-color: $OFF_WHITE;
+
+	.block-highlight__main-image {
+		width: 90%;
+		width: calc(100% - 60px);
+	}
+}
+

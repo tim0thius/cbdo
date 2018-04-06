@@ -1,11 +1,13 @@
 body {
 	background-color: $BG_COLOR;
 	font-family: Helvetica, sans-serif;
+	font-family: $P_FONT;
+	font-weight: 300;
 	font-size: 16px;
 }
 .grid{
 	&__item {
-		background-color: #eee;
+		// background-color: #eee;
 		margin: 15px 0;
 		// padding: 30px;
 	}

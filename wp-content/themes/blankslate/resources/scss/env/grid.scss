@@ -84,7 +84,7 @@ $mobile-first:          true !default;
 /**
  * Set the spacing between your grid items.
  */
-$gutter:                24px !default;
+$gutter:                30px !default;
 
 
 /**
@@ -121,10 +121,11 @@ $use-markup-fix:        true !default;
  * that the breakpoint fires at.
  */
 $breakpoints: (
-    'palm' '(max-width: 480px)',
-    'lap' '(min-width: 481px) and (max-width: 1023px)',
-    'portable' '(max-width: 1023px)',
-    'desk' '(min-width: 1024px)'
+    'palm' '(max-width: $PALM)',
+    'lap' '(min-width: $LAP_MIN) and (max-width: $LAP_MAX)',
+    'portable' '(max-width: $PORTABLE)',
+    'desk' '(min-width: $DESK)',
+    'largedesk' '(min-width: $LG_DESK)'
 ) !default;
 
 
@@ -138,9 +139,9 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ('palm', 'lap', 'portable', 'desk') !default;
-$breakpoint-has-push:   ('palm', 'lap', 'portable', 'desk') !default;
-$breakpoint-has-pull:   ('palm', 'lap', 'portable', 'desk') !default;
+$breakpoint-has-widths: ('palm', 'lap', 'portable', 'desk', 'largedesk') !default;
+$breakpoint-has-push:   ('palm', 'lap', 'portable', 'desk', 'largedesk') !default;
+$breakpoint-has-pull:   ('palm', 'lap', 'portable', 'desk', 'largedesk') !default;
 
 
 /**

@@ -1,4 +1,4 @@
-<div id="highlights--resources" class="block-highlight section section--contained" >
+<div id="highlights--resources" class="block-highlight block-highlight--default section section--contained" >
 	<div id="" class="block-highlight__inner section__inner">
 		<div class="grid grid--center">
 			<div class="grid__item one-whole">

@@ -1,5 +1,5 @@
-<div id="highlights--casestudies" class="block-highlight section section--contained" >
-	<div id="" class="block-highlight__inner section__inner">
+<div id="highlights--casestudies" class="block-highlight block-highlight--default section section--contained" >
+	<div id="block-casestudies" class="block-highlight__inner section__inner">
 		
 @wpquery(array('post_type'=>'casestudy'))
 	<div class="grid grid--center">

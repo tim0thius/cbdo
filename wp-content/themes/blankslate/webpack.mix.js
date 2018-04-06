@@ -1,4 +1,4 @@
-const { mix } = require('laravel-mix');
+const mix = require('laravel-mix').mix;
 
 const resources = 'resources';
 const assets = 'assets';
@@ -7,7 +7,7 @@ mix.setPublicPath(assets);
 mix.setResourceRoot('../');
 
 // mix.browserSync({
-//     proxy: 'http://ltp.local',
+//     proxy: 'http://cbdo.local',
 //     files: [
 //         `**/*.php`,
 //         `${assets}/**/*.js`,

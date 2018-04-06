@@ -1,20 +1,37 @@
 #block-header {
 	@include flex(stretch, center, row);
-	// height: 200px;
+	height: 220px;
+	padding: 0 $SITE_PADDING;
 }
-// #block-header__inner {
-// 	max-width: 1400px;
-// 	width: 100%;
-// }
+
+#block-header__inner {
+	@include flex(space-between, center, column);
+}
+
+#block-header__branding {
+	max-width: 300px;
+}
 
 #block-header--menu {
-	& #menu-menu-1 {
+	#menu-menu-1 {
 		@include flex(center, flex-end, row);
 		// min-height: 100px;
 	}
 
-	& .sub-menu {
+	.sub-menu {
 		display: none;
-	} 
-	
+	}
+
+	.menu-item {
+		font-family: $P_FONT;
+		font-size: 18px;
+		color: $DARK_GREY;
+		text-transform: lowercase;
+
+		a {
+			color: inherit;
+			padding: 10px 0 10px 20px;
+			text-decoration: none;
+		}
+	}
 }

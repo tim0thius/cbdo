@@ -8,27 +8,23 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper">
-
-	        	<header class="section section--contained" id="block-header" role="banner">
-					<div id="block-header__inner" class="section__inner">
-						<div class="grid grid--full">
-							<div class="grid__item one-sixth">
-								<div id="block-header--branding">
-									<div id="block-header--site-title"><?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a><?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?></div>
-									<div id="block-header--site-description"><?php bloginfo( 'description' ); ?></div>
-								</div>	
-							</div><!-- 
-							 --><div class="grid__item five-sixths">
-								<nav id="block-header--menu" role="navigation">
-									<!-- <div id="search">
-									<?php //get_search_form(); ?>
-									</div> -->
-									<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-								</nav>
-							</div>
-						</div>
-					</div>
-		        </header>
-
-
+	<header class="section section--contained" id="block-header" role="banner">
+		<div id="block-header__inner" class="section__inner">
+			<div class="grid grid--full">
+				<div class="grid__item one-whole desk--one-quarter">
+					<div id="block-header__branding">
+						<img src="wp-content/themes/blankslate/assets/images/logo.svg" alt="">
+					</div>	
+				</div><!-- 
+				 --><div class="grid__item one-whole desk--three-quarters">
+					<nav id="block-header--menu" role="navigation">
+						<!-- <div id="search">
+						<?php //get_search_form(); ?>
+						</div> -->
+						<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+					</nav>
+				</div>
+			</div>
+		</div>
+    </header>
 <div id="container">
