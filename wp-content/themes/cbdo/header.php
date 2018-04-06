@@ -13,7 +13,7 @@
 			<div class="grid grid--full">
 				<div class="grid__item one-whole desk--one-quarter">
 					<div id="block-header__branding">
-						<img src="wp-content/themes/blankslate/assets/images/logo.svg" alt="">
+						<img src="/wp-content/themes/cbdo/assets/images/logo.svg" alt="">
 					</div>	
 				</div><!-- 
 				 --><div class="grid__item one-whole desk--three-quarters">
