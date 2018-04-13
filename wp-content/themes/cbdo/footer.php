@@ -9,7 +9,13 @@
 				<h2 class="block-footer__heading">Contact</h2>
 				<div class="block-footer__divider"></div>
 				<div class="block-footer__contact">
-					<?php echo do_shortcode( '[ninja_form id="1"]' ); ?>
+					<?php 
+						$form_id = get_field('footer_form_id', 'option');
+						if($form_id){
+							echo do_shortcode( '[ninja_form id="' . $form_id . '"]' ); 
+						}
+						
+					?>
 				</div>	
 			</div><!-- 
 		 --><div class="grid__item one-half">
