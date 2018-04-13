@@ -5,8 +5,8 @@
 @include( 'templates/blocks/highlights/highlight--about' )
 @include( 'templates/blocks/highlights/highlight--section1' )
 @include( 'templates/blocks/highlights/highlight--section2' )
-@include( 'templates/blocks/highlights/highlight--casestudies' )
-@include( 'templates/blocks/highlights/highlight--resources' )
+@include( 'templates/blocks/block-casestudies' )
+@include( 'templates/blocks/block-resources' )
 @wpempty
     <p>404</p>
 @wpend
