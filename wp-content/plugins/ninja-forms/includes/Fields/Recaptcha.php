@@ -39,7 +39,7 @@ class NF_Fields_Recaptcha extends NF_Abstracts_Field
                     'value' => 'invisible'
                 ),
             ),
-            'width' => 'one-half portable--one-whole',
+            'width' => 'one-half',
             'group' => 'primary',
             'value' => 'visible',
             'help' => __( 'Select whether to display a "I\'m not a robot" field or to detect if the user is a robot in the background.', 'ninja-forms' ),

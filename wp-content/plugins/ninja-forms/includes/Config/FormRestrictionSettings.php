@@ -66,7 +66,7 @@ return apply_filters( 'ninja_forms_from_restriction_settings', array(
                 'name' => 'logged_in',
                 'type' => 'toggle',
                 'label' => __( 'Require user to be logged in to view form?', 'ninja-forms' ),
-                'width' => 'one-half portable--one-whole',
+                'width' => 'one-half',
                 'group' => 'primary',
                 'value' => FALSE,
                 'help' => __( 'Does apply to form preview.', 'ninja-forms' )
