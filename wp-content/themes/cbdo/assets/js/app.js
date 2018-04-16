@@ -94,7 +94,13 @@ __webpack_require__(2);
 })(document);
 
 jQuery(document).ready(function ($) {
-	console.log('test');
+	// console.log('test')
+	$('.action--show-menu').click(function () {
+		$('body').addClass('state--menu-open');
+	});
+	$('.action--hide-menu').click(function () {
+		$('body').removeClass('state--menu-open');
+	});
 });
 
 /***/ }),

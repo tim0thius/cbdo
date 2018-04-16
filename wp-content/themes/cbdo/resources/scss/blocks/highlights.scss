@@ -13,6 +13,10 @@
 			font-family: $H2_FONT;
 			font-size: $H2_SIZE;
 			margin-bottom: 30px;
+
+			@media screen and ( max-width: $LAP_MAX ) {
+				padding: 0 30px;
+			}
 		}
 		.block-highlight__content {
 			p {
@@ -28,6 +32,19 @@
 				font-size: $A_SIZE;
 			}
 
+			@media screen and ( max-width: $LAP_MAX ) {
+				padding: 0 30px;
+			}
+
+		}
+	}
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		padding: 30px 0 0;
+
+		img {
+			margin-bottom: -18px;
+			margin-top: 30px;
 		}
 	}
 }
@@ -45,6 +62,10 @@
 	.block-highlight__main-image {
 		width: 90%;
 		width: calc(100% - 60px);
+
+		@media screen and ( max-width: $LAP_MAX ) {
+			width: 100%;
+		}
 	}
 }
 

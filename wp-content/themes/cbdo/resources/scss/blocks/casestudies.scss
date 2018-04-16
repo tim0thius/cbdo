@@ -2,6 +2,10 @@
 	@include flex(center, center, column);
 
 	padding: 140px 0;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		padding: 70px 30px;
+	}
 }
 .block-casestudies__heading {
 	color: $GREY;
@@ -11,6 +15,11 @@
 	margin-bottom: 80px;
 	text-align: center;
 	text-transform: uppercase;
+	// 
+	@media screen and ( max-width: $LAP_MAX ) {
+		text-align: left;
+		margin-bottom: 40px;
+	}
 }
 .block-casestudies__item {
 
@@ -23,6 +32,11 @@
 			margin-bottom: 0;
 		}
 	}
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		// padding: 0 30px;
+	}
+	
 }
 .block-casestudies__title {
 	color: $BLUE;
@@ -42,6 +56,11 @@
 	line-height: 24px;
 	text-align: right;
 	text-transform: uppercase;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		text-align: left;
+	}
+	
 }
 .block-casestudies__copy {
 	color: $GREY;

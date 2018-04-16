@@ -1,7 +1,12 @@
 .block-footer {
 	@include flex(center, center, column);
 	min-height: 200px;
-	padding: 100px 0;
+	padding: 100px 30px;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		padding: 70px 30px;
+	}
+	
 }
 .block-footer__heading {
 	color: $DARK_GREY;
@@ -13,7 +18,13 @@
 	text-transform: uppercase;
 }
 .block-footer__phone {
-	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.block-footer__email {
+	@media screen and ( max-width: $LAP_MAX ) {
+		display: none;
+	}
+	
 }
 .block-footer__city {
 	color: $BLUE;
@@ -34,6 +45,12 @@
 	strong {
 		font-weight: 800;
 	}
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	
 }
 .block-footer__contact {
 	max-width: 330px;
@@ -72,15 +89,30 @@
 }
 .block-footer__copyright {
 	color: $GREY;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		font-size: 12px;
+	}
+	
 }
 .block-footer__menu-items {
     align-items: center;
     display: flex;
     justify-content: flex-end;
 
+    @media screen and ( max-width: $LAP_MAX ) {
+    	justify-content: flex-start;
+    }
+    
+
     li {
     	color: $GREY;
     	margin: 0 0 0 15px;
+
+    	@media screen and ( max-width: $LAP_MAX ) {
+    		margin: 0 15px 0 0;
+    	}
+    	
     }
     a {
     	color: inherit;

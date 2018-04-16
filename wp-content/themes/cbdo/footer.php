@@ -5,7 +5,7 @@
 	<div class="block-footer__inner section__inner">
 		
 		<div class="grid grid--center">
-			<div class="grid__item one-third">
+			<div class="grid__item one-third portable--one-whole">
 				<h2 class="block-footer__heading">Contact</h2>
 				<div class="block-footer__divider"></div>
 				<div class="block-footer__contact">
@@ -18,11 +18,11 @@
 					?>
 				</div>	
 			</div><!-- 
-		 --><div class="grid__item one-half">
+		 --><div class="grid__item one-half portable--one-whole">
 		 		<h2 class="block-footer__heading">Locations</h2>
 		 		<div class="block-footer__divider"></div>
 				<div class="grid">
-					<div class="grid__item one-half">
+					<div class="grid__item one-half portable--one-whole">
 						<div class="block-footer__copy">
 							<div class="block-footer__city">
 								Albany Office
@@ -46,7 +46,7 @@
 	&key=AIzaSyBpGdpNvREFGnPgxRa-4ktqImORQAYZgPw" alt="">	
 				
 					</div><!-- 
-					 --><div class="grid__item one-half">
+					 --><div class="grid__item one-half portable--one-whole">
 						<div class="block-footer__copy">
 							<div class="block-footer__city">
 								San Francisco Office (Fridays)
@@ -60,7 +60,7 @@
 							<div class="block-footer__fax">
 								<strong>Fax:</strong>415-334-1014
 							</div>
-							<div class="block-footer__email" style="visibility:hidden">
+							<div class="block-footer__email is-invisible">
 								<strong>email:</strong>
 							</div>	
 														
@@ -76,13 +76,8 @@
 			
 		</div>		
 		<div class="block-footer__divider"></div>
-		<div class="grid">
-			<div class="grid__item one-half">
-				<div class="block-footer__copyright">
-					<?php echo sprintf( __( '%1$s %2$s %3$s. All Rights Reserved.', 'cbdo' ), '&copy;', date( 'Y' ), esc_html( get_bloginfo( 'name' ) ) ); ?>
-				</div>	
-			</div><!-- 
-			 --><div class="grid__item one-half">
+		<div class="grid grid--rev">
+			<div class="grid__item one-half portable--one-whole">
 				<?php wp_nav_menu( 
 					array( 
 					'theme_location' => 'footer-menu',
@@ -90,6 +85,11 @@
 					'menu_class' => 'block-footer__menu-items'
 					)
 				); ?>
+			</div><!-- 
+			 --><div class="grid__item one-half portable--one-whole">
+				<div class="block-footer__copyright">
+					<?php echo sprintf( __( '%1$s %2$s %3$s. All Rights Reserved.', 'cbdo' ), '&copy;', date( 'Y' ), esc_html( get_bloginfo( 'name' ) ) ); ?>
+				</div>	
 			</div>
 			
 		</div>
