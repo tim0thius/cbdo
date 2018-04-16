@@ -5,6 +5,11 @@
 	background-image: linear-gradient(90deg, transparent, $BLUE);
 	color: $WHITE;
 	padding: 140px 0;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		padding: 70px 30px;
+	}
+	
 }
 .block-resources__heading {
 	color: $WHITE;
@@ -14,6 +19,12 @@
 	margin-bottom: 80px;
 	text-align: center;
 	text-transform: uppercase;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		text-align: left;
+		margin-bottom: 40px;
+	}
+	
 }
 .block-resources__label {
 	color: $WHITE;
@@ -27,6 +38,11 @@
 }
 .block-resources__item{
 	margin-bottom: 40px;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		margin-bottom: 30px;
+	}
+	
 }
 .block-resources__title {
 	color: $WHITE;

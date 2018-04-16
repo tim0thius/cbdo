@@ -16,6 +16,18 @@
 		font-size: 18px;
 		line-height: 38px;
 	}
+
+	a {
+		color: $WHITE;
+		font-family: $A_FONT;
+		font-size: 20px;
+	}
+
+	@media screen and ( max-width: $LAP_MAX ) {	
+		padding: 0 10%;
+	    text-align: center;
+	}
+
 }
 
 .block-about__main-image {
@@ -25,7 +37,11 @@
 	max-width: $CONTAINER;
 	width: 250px;
 
-	@media screen and ( min-width: $LAP_MIN ) {
+	@media screen and ( min-width: $LAP_MIN + 1 ) {
 		max-width: 100%;
+	}	
+	@media screen and ( max-width: $LAP_MAX ) {
+		display: block;
+		margin: 0 auto;
 	}
 }

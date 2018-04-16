@@ -6,7 +6,7 @@
 			</div>
 		</div>
 		<div class="grid grid--center">
-			<div class="grid__item one-third">
+			<div class="grid__item one-third portable--one-whole">
 				<h3 class="block-resources__label">Osteopathic Literature</h3>
 				<div class="block-resources__divider"></div>
 					@wpquery(array('post_type'=>'resource','meta_key' => 'resource_type','meta_value' => 'literature'))
@@ -20,7 +20,7 @@
 						</div><!-- 
 					 -->@wpend
 			</div><!-- 
-		 --><div class="grid__item one-third">
+		 --><div class="grid__item one-third portable--one-whole">
 		 		<h3 class="block-resources__label">Links to osteopathic resources</h3>
 		 		<div class="block-resources__divider"></div>
 				 @wpquery(array('post_type'=>'resource','meta_key' => 'resource_type','meta_value' => 'link'))<!-- 

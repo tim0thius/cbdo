@@ -5,7 +5,7 @@
 		
 @wpquery(array('post_type'=>'casestudy'))
 	<div class="block-casestudies__item grid grid--center">
-		<div class="grid__item one-sixth">
+		<div class="grid__item one-sixth portable--one-whole">
 			<span class="block-casestudies__label" >Case Study</span>
 		</div>
 		<div class="grid__item one-half portable--one-whole">
