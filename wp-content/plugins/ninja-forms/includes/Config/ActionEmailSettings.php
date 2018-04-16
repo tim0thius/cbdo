@@ -19,7 +19,7 @@ return apply_filters( 'ninja_forms_action_email_settings', array(
         'label' => __( 'To', 'ninja-forms' ),
         'placeholder' => __( 'Email address or search for a field', 'ninja-forms' ),
         'value' => '{wp:admin_email}',
-        'width' => 'one-half',
+        'width' => 'one-half portable--one-whole',
         'use_merge_tags' => TRUE,
     ),
 
@@ -34,7 +34,7 @@ return apply_filters( 'ninja_forms_action_email_settings', array(
         'label' => __( 'Reply To', 'ninja-forms' ),
         'placeholder' => '',
         'value' => '',
-        'width' => 'one-half',
+        'width' => 'one-half portable--one-whole',
         'use_merge_tags' => TRUE,
     ),
 
@@ -106,7 +106,7 @@ return apply_filters( 'ninja_forms_action_email_settings', array(
         'label' => __( 'From Name', 'ninja-forms' ),
         'placeholder' => __( 'Name or fields', 'ninja-forms' ),
         'value' => '',
-        'width' => 'one-half',
+        'width' => 'one-half portable--one-whole',
         'use_merge_tags' => TRUE,
     ),
 

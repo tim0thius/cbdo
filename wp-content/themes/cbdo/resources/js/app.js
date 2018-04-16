@@ -11,5 +11,11 @@ h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bw
 })(document)
 
 jQuery(document).ready(function ($) {
-	console.log('test')
+	// console.log('test')
+	$('.action--show-menu').click(function(){
+		$('body').addClass('state--menu-open')
+	})
+	$('.action--hide-menu').click(function(){
+		$('body').removeClass('state--menu-open')
+	})
 })

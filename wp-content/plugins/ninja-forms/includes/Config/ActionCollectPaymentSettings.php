@@ -34,7 +34,7 @@ return apply_filters( 'ninja_forms_action_collect_payment_settings', array(
         'name' => 'payment_total_type',
         'type' => 'select',
         'label' => __( 'Get Total From', 'ninja-forms' ),
-        'width' => 'one-half',
+        'width' => 'one-half portable--one-whole',
         'group' => 'primary',
         'options' => array(
             array( 'label' => __( '- Select One', 'ninja-forms' ), 'value' => '' ),
@@ -50,7 +50,7 @@ return apply_filters( 'ninja_forms_action_collect_payment_settings', array(
         'total_type'  => 'calc',
         'type' => 'select',
         'label' => __( 'Select Calculation', 'ninja-forms' ),
-        'width' => 'one-half',
+        'width' => 'one-half portable--one-whole',
         'group' => 'primary',
         'deps' => array(
             'payment_total_type' => 'calc',
@@ -68,7 +68,7 @@ return apply_filters( 'ninja_forms_action_collect_payment_settings', array(
         'total_type' => 'field',
         'type' => 'select',
         'label' => __( 'Select Field', 'ninja-forms' ),
-        'width' => 'one-half',
+        'width' => 'one-half portable--one-whole',
         'group' => 'primary',
         'deps' => array(
             'payment_total_type' => 'field',
@@ -86,7 +86,7 @@ return apply_filters( 'ninja_forms_action_collect_payment_settings', array(
         'total_type' => 'fixed',
         'type' => 'textbox',
         'label' => __( 'Enter Amount', 'ninja-forms' ),
-        'width' => 'one-half',
+        'width' => 'one-half portable--one-whole',
         'group' => 'primary',
         'value' => '0',
         'deps' => array(

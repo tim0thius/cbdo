@@ -8,7 +8,7 @@
 		<div class="grid__item one-sixth">
 			<span class="block-casestudies__label" >Case Study</span>
 		</div>
-		<div class="grid__item one-half">
+		<div class="grid__item one-half portable--one-whole">
 			<div class="block-casestudies__content">
 				<h3 class="block-casestudies__title" >{{ the_title() }}</h3>
 		        <div class="block-casestudies__copy" >{{ the_excerpt() }}</div>

@@ -29,7 +29,7 @@ class NF_Fields_ListCountry extends NF_Abstracts_List
             'type' => 'select',
             'label' => __( 'Default Value', 'ninja-forms' ),
             'options' => $this->get_default_value_options(),
-            'width' => 'one-half',
+            'width' => 'one-half portable--one-whole',
             'group' => 'primary',
             'value' => 'US',
         );

@@ -17,11 +17,11 @@
             <h2><?php _e( 'Editing Field', 'ninja-forms' ); ?></h2>
             <span><input type="submit" class="save-field-settings" value="SAVE" /></span>
         </header>
-        <div class="nf-one-half">
+        <div class="nf-one-half portable--one-whole">
             <label><?php _e( 'Label Name', 'ninja-forms' ); ?></label>
             <input type="text" />
         </div>
-        <div class="nf-one-half">
+        <div class="nf-one-half portable--one-whole">
             <label><?php _e( 'Label Position', 'ninja-forms' ); ?></label>
             <select>
                 <option><?php _e( 'Above Field', 'ninja-forms' ); ?></option>

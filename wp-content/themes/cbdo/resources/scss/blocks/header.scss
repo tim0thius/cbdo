@@ -5,7 +5,11 @@
 }
 
 #block-header__inner {
-	@include flex(space-between, center, column);
+	@include flex(stretch, center, column);
+
+	// > .grid {
+	// 	@include flex(center, center, column);
+	// }
 }
 
 #block-header__branding {
@@ -13,9 +17,37 @@
 }
 
 #block-header--menu {
+
+	// @media screen and ( max-width: $LAP_MAX ) {
+	// 	background-color: $WHITE;
+	// 	flex-direction: column;
+	// 	height: 100vh;
+	// 	left: 0;
+	// 	opacity: 0;
+	// 	position: fixed;
+	// 	top: 0;
+	// 	width: 100vw;
+	// 	z-index: -1;
+	// 	transition: all .3s;
+	// }
+
+	// .menu-menu-1-container {
+	// 	@media screen and ( max-width: $LAP_MAX ) {
+	// 		height: 100vh;
+	// 	}
+	// }
+
 	#menu-menu-1 {
 		@include flex(center, flex-end, row);
 		// min-height: 100px;
+
+	// @media screen and ( max-width: $LAP_MAX ) {
+	// 	flex-direction: column;
+	// 	height: 100%;
+	// 	justify-content: center;
+	// 	width: 100%;
+	// }
+
 	}
 
 	.sub-menu {
@@ -32,6 +64,78 @@
 			color: inherit;
 			padding: 10px 0 10px 20px;
 			text-decoration: none;
+
+			// @media screen and ( max-width: $LAP_MAX ) {
+			// 	// font-size: 30px;
+			// 	// padding: 15px 0;
+			// 	// display: block;
+			// }
 		}
+	}
+}
+.block-header__open-menu-button {
+	cursor: pointer;
+	display: none;
+
+	img {
+		display: block;
+	}
+}
+.block-header__close-menu-button {
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 60px;
+	color: $GREY;
+
+	// @media screen and ( max-width: $LAP_MAX ) {
+	// 	display: block;
+	// }
+}
+@media screen and ( max-width: $LAP_MAX ) {
+	#block-header__inner > .grid {
+		@include flex(center, center, column);
+	}
+	#block-header--menu {
+		background-color: $WHITE;
+		flex-direction: column;
+		height: 100vh;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		top: 0;
+		width: 100vw;
+		z-index: -1;
+		transition: all .3s;
+
+		.menu-menu-1-container {
+			height: 100vh;
+		}
+
+		#menu-menu-1 {
+			flex-direction: column;
+			height: 100%;
+			justify-content: center;
+			width: 100%;
+		}
+
+		.menu-item a {
+			font-size: 30px;
+			padding: 15px 0;
+			display: block;
+		}
+	}
+	.block-header__open-menu-button {
+		@include flex( $direction: column );
+		
+		color: $GREY;
+		font-size: 60px;
+		height: 36px;
+		width: 40px;
+	}
+	.block-header__close-menu-button {
+		display: block;
 	}
 }

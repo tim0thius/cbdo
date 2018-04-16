@@ -19,7 +19,7 @@ return apply_filters( 'ninja_forms_example_settings', array(
         'name' => 'setting_name_here',
         'type' => 'textbox', // 'textarea', 'number', 'toggle', etc
         'label' => __( 'Label Here', 'ninja-forms'),
-        'width' => 'one-half', // 'full', 'one-half', 'one-third'
+        'width' => 'one-half portable--one-whole', // 'full', 'one-half portable--one-whole', 'one-third'
         'group' => 'primary', // 'primary', 'restrictions', 'advanced'
         'value' => '',
         'help' => __( 'Help Text Here', 'ninja-forms' ),
