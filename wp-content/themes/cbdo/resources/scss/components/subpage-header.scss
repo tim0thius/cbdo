@@ -5,12 +5,18 @@
 	color: $WHITE;
 	max-height: 233px;
 	overflow: hidden;
+
+	@media screen and ( min-width: $LAP_MAX ) {
+		padding-left: 30px;
+	}
+	
+	
 }
 
 .component-subpage-header__inner {
 	// background-color: $TEAL;
 	// background-image: linear-gradient(90deg, transparent, $BLUE);
-	max-width: $SITE_WIDTH;
+	// max-width: $SITE_WIDTH;
 	background-size: cover;
     background-position: center 40%;
 
@@ -34,7 +40,7 @@
 	}
 }
 .component-subpage-header__content {
-	@include flex(center, center, column);
+	@include flex(flex-start, center, column);
 
 	@media screen and ( max-width: $LAP_MAX ) {
 		align-items: flex-start;
