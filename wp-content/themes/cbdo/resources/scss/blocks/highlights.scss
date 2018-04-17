@@ -85,3 +85,62 @@
 
 }
 
+.block-highlight__subtext{
+	font-size: 18px;
+	color: $GREY;
+	line-height: 24px;
+	max-width: 425px;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		padding: 30px;
+	}
+	
+	strong {
+		font-size: inherit;
+		color: $BLUE;
+	}
+	a {
+		color: inherit;
+	}
+}
+.block-highlight__testimonial_content {
+	display: block;
+	margin-bottom: 15px;
+}
+.block-highlight__testimonial_image {
+	border-radius: 100px;
+	margin: 0 !important;
+	width: 100% !important;
+}
+.block-highlight__testimonial_name{
+	color: $BLUE;
+	font-weight: 500;
+}
+.block-highlight__testimonial_meta {
+	padding-left: 15px;
+
+	> span {
+		display: block;
+	}
+	strong {
+		color: $BLUE;
+	}
+}
+.block-highlight__patient-download-link {
+	color: $GREY;
+	display: block;
+	font-size: 17px;
+	margin: 15px 0;
+}
+.block-highlight__divider {
+	display: none;
+
+	@media screen and ( min-width: $LAP_MAX + 1 ) {
+		border-top: 1px solid $LIGHT_GREY;
+		display: block;
+		margin: 30px 0;
+		opacity: 1;
+		width: 150px;
+	}
+}
+
