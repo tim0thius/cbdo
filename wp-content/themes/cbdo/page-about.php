@@ -8,5 +8,8 @@
 @wpempty
     <p>404</p>
 @wpend
+
+@include( 'templates/blocks/block-casestudies' )
+@include( 'templates/blocks/block-resources' )
 </section>
 <?php get_footer(); ?>

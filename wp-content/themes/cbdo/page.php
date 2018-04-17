@@ -16,5 +16,7 @@
 		</div>
 	</div>
 <?php endwhile; endif; ?>
+
+@include( 'templates/blocks/block-resources' )
 </section>
 <?php get_footer(); ?>

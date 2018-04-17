@@ -9,6 +9,9 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+strong {
+	font-weight: 400;
+}
 .grid{
 	&__item {
 		// background-color: #eee;
@@ -32,4 +35,7 @@ img {
 
 .is-invisible {
 	visibility: hidden !important;
+}
+.is-off-white {
+	background-color: $OFF-WHITE;
 }

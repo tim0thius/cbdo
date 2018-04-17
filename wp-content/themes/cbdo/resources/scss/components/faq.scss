@@ -1,0 +1,34 @@
+.component-faq {
+	
+}
+.component-faq__question {
+	color: $BLUE;
+	display: block;
+	font-family: $H3_FONT;
+	font-size: $H3_SIZE;
+	letter-spacing: .04em;
+	line-height: 24px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.component-faq__answer {
+	color: $GREY;
+	display: block;
+	font-family: $SAN-SERIF;
+	font-size: 18px;
+	letter-spacing: .03em;
+	line-height: 36px;
+	margin-bottom: 30px;
+}
+.component-faq__item {
+
+	.component-faq__content {
+		margin-bottom: 60px;
+	}
+	
+	&:last-child {
+		.component-faq__content {
+			margin-bottom: 0;
+		}
+	}
+}

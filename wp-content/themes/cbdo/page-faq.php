@@ -5,25 +5,28 @@
 	@include( 'templates/blocks/subpage-header' )
 	<div id="post-<?php the_ID(); ?>" class="block-highlight block-highlight--default section section--left <?php post_class(); ?>" >
 		<div id="" class="block-highlight__inner section__inner">
-			<div class="grid grid--middle">
-				<div class="grid__item one-half">
-					<h2 class="block-highlight__headline" >{{ the_title() }}</h2>
+			<div class="grid grid--middle grid--center">
+				<div class="grid__item one-half portable--one-whole">
 					<div class="block-highlight__content">
 						{{ the_content() }}
-						<ul>
+						<div class="component-faq" >
 						    @acfrepeater('faq_list')
-						        <li>{{ get_sub_field( 'faq_question' ) }}</li>
-						        <li>{{ get_sub_field( 'faq_answer' ) }}</li>
+						    <div class="faq_item">
+						    	<span class="component-faq__question" >{{ get_sub_field( 'faq_question' ) }}</span>
+						        <span class="component-faq__answer" >{{ get_sub_field( 'faq_answer' ) }}</span>
+						    </div>
+						        
 						    @acfend
-						</ul>
+						</div>
 					</div>
-				</div><!-- 
-			--><div class="grid__item one-half">
-				<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
 				</div>
 			</div>
 		</div>
 	</div>
-
+	<div class="is-off-white">
+		@include( 'templates/blocks/block-casestudies' )
+	</div>
+	
+	@include( 'templates/blocks/block-resources' )
 </section>
 <?php get_footer(); ?>
