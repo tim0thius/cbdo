@@ -45,7 +45,7 @@
 	font-SIZE: $H1_SIZE;
 	margin-bottom: 30px;
 	text-align: center;
-	width: 400px;
+	max-width: 400px;
 
 	@media screen and ( max-width: $LAP_MAX ) {
 		font-size: 52px;

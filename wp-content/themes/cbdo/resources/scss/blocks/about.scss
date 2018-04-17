@@ -45,3 +45,16 @@
 		margin: 0 auto;
 	}
 }
+
+#about_2 {
+	background-color: $OFF_WHITE;
+
+	.block-highlight__main-image {
+		width: 90%;
+		width: calc(100% - 60px);
+
+		@media screen and ( max-width: $LAP_MAX ) {
+			width: 100%;
+		}
+	}
+}

@@ -1,7 +1,12 @@
 #block-header {
 	@include flex(stretch, center, row);
-	height: 220px;
+	height: 110px;
 	padding: 0 $SITE_PADDING;
+
+	@media screen and ( min-width: $DESK ) {
+		height: 220px;
+	}
+	
 }
 
 #block-header__inner {
@@ -13,7 +18,12 @@
 }
 
 #block-header__branding {
-	max-width: 300px;
+	max-width: 250px;
+
+	@media screen and ( min-width: $DESK ) {
+		max-width: 300px;
+	}
+	
 }
 
 #block-header--menu {
@@ -129,7 +139,7 @@
 	}
 	.block-header__open-menu-button {
 		@include flex( $direction: column );
-		
+
 		color: $GREY;
 		font-size: 60px;
 		height: 36px;
