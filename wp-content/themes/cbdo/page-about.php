@@ -4,6 +4,7 @@
 @include( 'templates/blocks/subpage-header' )
 @include( 'templates/blocks/about/about--section1' )
 @include( 'templates/blocks/about/about--section2' )
+@include( 'templates/blocks/about/about--section3' )
 
 @wpempty
     <p>404</p>
