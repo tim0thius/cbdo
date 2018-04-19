@@ -11,15 +11,19 @@
 	<header class="section section--contained" id="block-header" role="banner">
 		<div id="block-header__inner" class="section__inner">
 			<div class="grid grid--full">
-				<div class="grid__item nine-tenths desk--one-quarter">
+				<div class="grid__item nine-tenths desk--one-third">
 					<div id="block-header__branding">
 						<a href="<?php echo site_url(); ?>">
+							<?php if(is_front_page()): ?>
 							<img src="/wp-content/themes/cbdo/assets/images/logo.svg" alt="Official Website of Christopher Brown DO">
+							<?php else: ?>
+							<img src="/wp-content/themes/cbdo/assets/images/logo_GREY.svg" alt="Official Website of Christopher Brown DO">
+							<?php endif; ?>
 						</a>
 						
 					</div>	
 				</div><!-- 
-				 --><div class="grid__item one-tenth desk--three-quarters">
+				 --><div class="grid__item one-tenth desk--two-thirds">
 					<nav id="block-header--menu" role="navigation">
 						<!-- <div id="search">
 						<?php //get_search_form(); ?>

@@ -76,6 +76,7 @@
 	background-color: $BLUE;
 	border: none;
 	color: $WHITE;
+	cursor: pointer;
 	font-family: inherit;
 	padding: 15px 30px;
     font-size: 18px;
@@ -83,6 +84,11 @@
     max-width: 200px;
     text-align: center;
     text-transform: uppercase;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $TEAL;
+	}    
 }
 .block-footer__map {
 	max-width: 100%;
