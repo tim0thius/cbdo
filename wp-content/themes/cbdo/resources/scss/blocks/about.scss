@@ -27,6 +27,12 @@
 		color: $TEAL;
 		font-family: $A_FONT;
 		font-size: 20px;
+		opacity: 1;
+		transition: all .3s;
+
+		&:hover {
+			opacity: .7;
+		}
 	}
 
 	@media screen and ( max-width: $LAP_MAX ) {	

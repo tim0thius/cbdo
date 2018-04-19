@@ -31,6 +31,12 @@
 				color: $BLUE;
 				font-family: $A_FONT;
 				font-size: $A_SIZE;
+				opacity: 1;
+				transition: all .3s;
+
+				&:hover {
+					opacity: .7;
+				}				
 			}
 
 			@media screen and ( max-width: $LAP_MAX ) {
@@ -126,12 +132,24 @@
 		color: $BLUE;
 	}
 }
+.block-highlight__related-article-link {
+	transition: color .3s;
+
+	&:hover {
+		color: $DARK_GREY;
+	}
+}
 .block-highlight__patient-download-link {
 	align-items: center;
 	color: $GREY;
 	display: flex;
 	font-size: 17px;
 	margin: 30px 0 0;
+	transition: color .3s;
+
+	&:hover {
+		color: $DARK_GREY;
+	}
 }
 .block-highlight__divider {
 	display: none;

@@ -76,7 +76,7 @@
 
 }
 .block-casestudies__copy {
-	color: $GREY;
+	color: $DARK_GREY;
 	font-family: $SAN-SERIF;
 	font-size: 16px;
 	letter-spacing: .03em;
@@ -95,4 +95,11 @@
 	text-align: center;
 	text-decoration: none;
 	width: 182px;
+	transition: all .3s;
+
+	&:hover {
+		background-color: $DARK_GREY;
+		border-color: $DARK_GREY;
+		color: $WHITE;
+	}	
 }

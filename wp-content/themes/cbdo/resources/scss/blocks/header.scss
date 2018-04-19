@@ -20,8 +20,12 @@
 #block-header__branding {
 	max-width: 250px;
 
-	@media screen and ( min-width: $DESK ) {
-		max-width: 300px;
+	@media screen and ( min-width: $PALM ) {
+		max-width: 325px;
+	}
+
+	@media screen and ( min-width: $LAP_MAX ) {
+		max-width: 350px;
 	}
 	
 }
