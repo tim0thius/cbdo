@@ -45,8 +45,9 @@
 	
 }
 .block-resources__title {
+	align-items: center;
 	color: $WHITE;
-	display: block;
+	display: flex;
 	font-family: $SAN-SERIF;
 	font-size: 18px;
 	letter-spacing: .1em;
@@ -58,13 +59,15 @@
 	display: block;
 	font-family: $SAN-SERIF;
 	font-size: 16px;
+	font-style: italic;
 	letter-spacing: .1em;
 	line-height: 1;
-	font-style: italic;
+	margin-left: 22px;
 }
 .block-resources__link {
+	align-items: center;
 	color: $WHITE;
-	display: block;
+	display: flex;
 	font-family: $SAN-SERIF;
 	font-size: 18px;
 	letter-spacing: .1em;
@@ -74,6 +77,14 @@
 	&:hover {
 		opacity: .7;
 	}
+}
+.block-resources__book-icon {
+	margin-right: 10px;
+	width: 13px;
+}
+.block-resources__link-icon {
+	margin-right: 10px;
+	width: 13px;
 }
 .block-resources__divider {
   border-bottom: 1px solid rgba(255,255,255,.3);

@@ -11,7 +11,7 @@
 				<div class="block-resources__divider"></div>
 					@wpquery(array('post_type'=>'resource','meta_key' => 'resource_type','meta_value' => 'literature'))
 						<div class="block-resources__item">
-					        <h3 class="block-resources__title">{{ the_title() }}</h3>
+					        <h3 class="block-resources__title"><img class="block-resources__book-icon" src="/wp-content/themes/cbdo/assets/images/icon_book.svg" alt="">{{ the_title() }}</h3>
 					        <span class="block-resources__author">{{ the_field('resource_author') }}</span>
 						</div><!-- 
 					 -->@wpempty<!-- 
@@ -26,7 +26,7 @@
 				 @wpquery(array('post_type'=>'resource','meta_key' => 'resource_type','meta_value' => 'link'))<!-- 
 					 --><div class="block-resources__item">
 				        <h3 class="block-resources__title">{{ the_title() }}</h3>
-				        <a class="block-resources__link" href="{{ the_field('resource_link_url') }}" >{{ the_field('resource_link_url') }}</a>
+				        <a class="block-resources__link" href="{{ the_field('resource_link_url') }}" ><img class="block-resources__link-icon" src="/wp-content/themes/cbdo/assets/images/icon_link.svg" alt=""><span>{{ the_field('resource_link_url') }}</span></a>
 					</div><!-- 
 				 -->@wpempty<!-- 
 					 --><div class="block-resources__item">
