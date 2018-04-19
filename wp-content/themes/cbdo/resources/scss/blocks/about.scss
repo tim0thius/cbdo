@@ -8,17 +8,23 @@
 #block-about__inner {
 	background-color: $DARK_BLUE;
 	max-width: $SITE_WIDTH;
+	padding: 15px 0;
 	// padding: 15px $SITE_PADDING;
 	// padding: 15px 0;
 }
 #block-about__content {
+
+	@media screen and ( min-width: $LAP_MAX + 1 ) {
+		padding-left: 30px;
+	}
+	
 	p {
 		font-size: 18px;
 		line-height: 38px;
 	}
 
 	a {
-		color: $WHITE;
+		color: $TEAL;
 		font-family: $A_FONT;
 		font-size: 20px;
 	}

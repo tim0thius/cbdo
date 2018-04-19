@@ -6,7 +6,7 @@
 @wpquery(array('post_type'=>'casestudy'))
 	<div class="block-casestudies__item grid grid--center">
 		<div class="grid__item one-sixth portable--one-whole">
-			<span class="block-casestudies__label" >Case Study</span>
+			<span class="block-casestudies__label" ><img class="block-casestudies__icon" src="/wp-content/themes/cbdo/assets/images/icon_clipboard.svg" alt=""><span>Case Study</span></span>
 		</div>
 		<div class="grid__item one-half portable--one-whole">
 			<div class="block-casestudies__content">

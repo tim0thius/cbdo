@@ -48,8 +48,9 @@
 	text-transform: uppercase;
 }
 .block-casestudies__label {
+	@include flex(center, flex-start);
+
 	color: $GREY;
-	display: block;
 	font-family: $SERIF;
 	font-size: 16px;
 	letter-spacing: .2em;
@@ -58,9 +59,21 @@
 	text-transform: uppercase;
 
 	@media screen and ( max-width: $LAP_MAX ) {
+		align-items: flex-end;
 		text-align: left;
 	}
 	
+}
+.block-casestudies__icon {
+	margin-right: 10px;
+	position: relative;
+	top: -4px;
+	width: 13px;
+
+	@media screen and ( min-width: $LAP_MAX ) {
+		top: -2px;
+	}
+
 }
 .block-casestudies__copy {
 	color: $GREY;
