@@ -18,4 +18,10 @@ jQuery(document).ready(function ($) {
 	$('.action--hide-menu').click(function(){
 		$('body').removeClass('state--menu-open')
 	})
+
+	// fade in text
+	var text_to_fade_in = 'h1,h2,h3,h4,a,p,li,span'
+	setTimeout(function(){
+		$(text_to_fade_in).addClass('fade-in')
+	}, 300)
 })
