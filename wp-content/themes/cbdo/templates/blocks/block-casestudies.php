@@ -12,7 +12,7 @@
 			<div class="block-casestudies__content">
 				<h3 class="block-casestudies__title" >{{ the_title() }}</h3>
 		        <div class="block-casestudies__copy" >{{ the_excerpt() }}</div>
-		        <a href="{{ the_field('cs_button_url') }}" class="block-casestudies__button">read full study</a>	
+		        <a target="_blank" href="{{ the_field('cs_button_url') }}" class="block-casestudies__button">read full study</a>	
 			</div>
 	        
 		</div>
