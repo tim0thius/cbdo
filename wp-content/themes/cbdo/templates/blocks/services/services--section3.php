@@ -8,7 +8,7 @@
 					<div class="block-highlight__divider"></div>
 					<div class="block-highlight__subtext">
 						<span class="block-highlight__related-article-label"><strong>Related article:</strong></span>
-						<a href="{{ the_field('section_3_related_article_url') }}" class="block-highlight__related-article-link">{{ the_field('section_3_related_article_title') }}</a>
+						<a target="_blank" href="{{ the_field('section_3_related_article_url') }}" class="block-highlight__related-article-link">{{ the_field('section_3_related_article_title') }}</a>
 					</div>
 				@endif
 			</div><!-- 

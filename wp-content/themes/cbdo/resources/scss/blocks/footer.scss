@@ -21,6 +21,11 @@
 	.grid__item {
 		margin: 0;
 	}
+	.block-footer__divider {
+		@media screen and ( max-width: $LAP_MAX ) {
+			margin-top: 15px;
+		}
+	}
 }
 .block-footer__phone {
 	margin-top: 30px;
@@ -102,6 +107,10 @@
 }
 .block-footer__map {
 	max-width: 100%;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		margin-bottom: 15px;
+	}
 }
 .block-footer__copyright {
 	color: $GREY;
