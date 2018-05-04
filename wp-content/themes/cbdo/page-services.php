@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section id="content" role="main">	
 	@wpposts
-	@include( 'templates/blocks/subpage-header' )
+	@include( 'templates/blocks/subpage-header2' )
 	@include( 'templates/blocks/services/services--section1' )
 	@include( 'templates/blocks/services/services--section2' )
 	@include( 'templates/blocks/services/services--section3' )

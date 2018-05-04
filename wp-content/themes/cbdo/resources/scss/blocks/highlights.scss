@@ -1,8 +1,18 @@
 .block-highlight {
 	@include flex(center, center, column);
 
+	&.is_main_section {
+
+		@media screen and ( min-width: $DESK ) {
+			@include is_main_section;
+		}
+		
+		
+	}
+
 	&--default {
 		padding: 120px 30px;
+
 
 		// .grid {
 		// 	@include flex( center, center, row);
