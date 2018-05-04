@@ -49,6 +49,9 @@ strong {
 	// @include flex(stretch, space-between, column);
 }
 .section {
+	&--accent {
+		background-color: $OFF-WHITE;
+	}
 	&__inner {
 		max-width: 1400px;
 		width: 100%;

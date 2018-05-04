@@ -1,4 +1,4 @@
-<div id="services_4" class="block-highlight block-highlight--default section section--right" >
+<div id="services_4" class="block-highlight block-highlight--default section section--right section--accent" >
 	<div id="" class="block-highlight__inner section__inner">
 		<div class="grid grid--center grid--rev">
 			<div class="grid__item one-half palm--one-whole">
