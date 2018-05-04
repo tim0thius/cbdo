@@ -9,7 +9,7 @@ h1,h2,h3,h4 {
 }
 p,li,span {
 		opacity: 0;
-		transition: opacity .7s .6s;
+		transition: opacity .7s .2s;
 
 		&.fade-in {
 			opacity: 1;
@@ -17,7 +17,15 @@ p,li,span {
 }
 a:not(.block-header__sitelink) {
 		opacity: 0;
-		transition: opacity .7s .3s;
+		transition: opacity .5s .4s;
+
+		&.fade-in {
+			opacity: 1;
+		}
+}
+a.block-header__sitelink {
+		opacity: 0;
+		transition: opacity .2s;
 
 		&.fade-in {
 			opacity: 1;
