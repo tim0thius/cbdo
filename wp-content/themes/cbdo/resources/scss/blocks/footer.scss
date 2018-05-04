@@ -67,9 +67,12 @@
 	}
 	
 }
-.block-footer__contact {
-	max-width: 330px;
+.block-footer__contact {	
 	font-family: $SAN-SERIF;
+
+	@media screen and ( min-width: $DESK ) {
+		max-width: 330px;
+	}
 
 	#ninja_forms_required_items, .nf-field-container {
 		font-family: inherit;
