@@ -2,11 +2,11 @@
 <?php
 ?>
 <section id="content" role="main">
-	@include( 'templates/blocks/subpage-header' )
-	<div id="post-<?php the_ID(); ?>" class="block-highlight block-highlight--default section section--left <?php post_class(); ?>" >
+	@include( 'templates/blocks/subpage-header2' )
+	<div id="post-<?php the_ID(); ?>" class="block-highlight block-highlight--default section is_main_section section--left <?php post_class(); ?>" >
 		<div id="" class="block-highlight__inner section__inner">
 			<div class="grid grid--middle grid--center">
-				<div class="grid__item one-half portable--one-whole">
+				<div class="grid__item two-thirds portable--one-whole">
 					<div class="block-highlight__content">
 						{{ the_content() }}
 						<div class="component-faq" >
