@@ -35,16 +35,16 @@
 									<div class="block-footer__copy">
 										
 										<div class="block-footer__address">
-											902 Santa Fe Avenue<br/>Albany, CA 94706
+											<?= the_field('street_albany', 'option') ?><br/><?= the_field('citystatezip_albany', 'option') ?>
 										</div>
 										<div class="block-footer__phone">
-											<a href="tel:5105265256"><strong>Phone:</strong> 510-526-5256</a>
+											<a href="tel:5105265256"><strong>Phone:</strong> <?= the_field('phone_albany', 'option') ?></a>
 										</div>
 										<div class="block-footer__fax">
-											<strong>Fax:</strong> 510-526-5547
+											<strong>Fax:</strong> <?= the_field('fax_albany', 'option') ?>
 										</div>
 										<div class="block-footer__email">
-											<strong>email:</strong> 902santafe@gmail.com
+											<strong>email:</strong> <?= the_field('email_albany', 'option') ?>
 										</div>						
 									</div>
 								</div><!-- 
@@ -69,13 +69,13 @@
 									<div class="block-footer__copy">
 										
 										<div class="block-footer__address">
-											661 Chenery Street<br/>San Francisco, CA 94131
+											<?= the_field('street_sanfran', 'option') ?><br/><?= the_field('citystatezip_sanfran', 'option') ?>
 										</div>
 										<div class="block-footer__phone">
-											<a href="tel:4153341010"><strong>Phone:</strong> 415-334-1010</a>
+											<a href="tel:4153341010"><strong>Phone:</strong> <?= the_field('phone_sanfran', 'option') ?></a>
 										</div>
 										<div class="block-footer__fax">
-											<strong>Fax:</strong> 415-334-1014
+											<strong>Fax:</strong> <?= the_field('fax_sanfran', 'option') ?>
 										</div>
 										<div class="block-footer__email is-invisible">
 											<strong>email:</strong>
