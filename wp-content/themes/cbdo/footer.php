@@ -38,10 +38,10 @@
 											<?= the_field('street_albany', 'option') ?><br/><?= the_field('citystatezip_albany', 'option') ?>
 										</div>
 										<div class="block-footer__phone">
-											<a href="tel:5105265256"><strong>Phone:</strong> <?= the_field('phone_albany', 'option') ?></a>
+											<a href="tel:<?= the_field('phone_albany', 'option') ?>"><strong>Phone:</strong> <?= the_field('phone_albany', 'option') ?></a>
 										</div>
 										<div class="block-footer__fax">
-											<strong>Fax:</strong> <?= the_field('fax_albany', 'option') ?>
+											<a><strong>Fax:</strong> <?= the_field('fax_albany', 'option') ?></a>
 										</div>
 										<div class="block-footer__email">
 											<strong>email:</strong> <?= the_field('email_albany', 'option') ?>
@@ -72,10 +72,10 @@
 											<?= the_field('street_sanfran', 'option') ?><br/><?= the_field('citystatezip_sanfran', 'option') ?>
 										</div>
 										<div class="block-footer__phone">
-											<a href="tel:4153341010"><strong>Phone:</strong> <?= the_field('phone_sanfran', 'option') ?></a>
+											<a href="tel:<?= the_field('phone_sanfran', 'option') ?>"><strong>Phone:</strong> <?= the_field('phone_sanfran', 'option') ?></a>
 										</div>
 										<div class="block-footer__fax">
-											<strong>Fax:</strong> <?= the_field('fax_sanfran', 'option') ?>
+											<a><strong>Fax:</strong> <?= the_field('fax_sanfran', 'option') ?></a>
 										</div>
 										<div class="block-footer__email is-invisible">
 											<strong>email:</strong>
