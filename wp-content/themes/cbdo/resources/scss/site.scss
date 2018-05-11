@@ -7,7 +7,7 @@ h1,h2,h3,h4 {
 			opacity: 1;
 		}
 }
-p,li,span {
+p:not(.nf-response-msg p),li,span {
 		opacity: 0;
 		transition: opacity .7s .2s;
 
@@ -64,6 +64,15 @@ strong {
 		max-width: 1400px;
 		width: 100%;
 	}
+}
+
+
+/* ==================== 
+---- Contact Form ------
+====================== */
+
+.nf-response-msg p {
+	line-height: 30px;
 }
 
 /* ==================== 
