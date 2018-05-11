@@ -132,6 +132,11 @@
     @media screen and ( max-width: $LAP_MAX ) {
     	justify-content: flex-start;
     }
+
+    @media screen and ( max-width: 350px ) {
+    	align-items: flex-start;
+    	flex-direction: column;
+    }
     
 
     li {

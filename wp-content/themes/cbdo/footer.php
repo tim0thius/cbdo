@@ -41,7 +41,7 @@
 											<a href="tel:5105265256"><strong>Phone:</strong> <?= the_field('phone_albany', 'option') ?></a>
 										</div>
 										<div class="block-footer__fax">
-											<strong>Fax:</strong> <?= the_field('fax_albany', 'option') ?>
+											<a><strong>Fax:</strong> <?= the_field('fax_albany', 'option') ?></a>
 										</div>
 										<div class="block-footer__email">
 											<strong>email:</strong> <?= the_field('email_albany', 'option') ?>
@@ -75,7 +75,7 @@
 											<a href="tel:4153341010"><strong>Phone:</strong> <?= the_field('phone_sanfran', 'option') ?></a>
 										</div>
 										<div class="block-footer__fax">
-											<strong>Fax:</strong> <?= the_field('fax_sanfran', 'option') ?>
+											<a><strong>Fax:</strong> <?= the_field('fax_sanfran', 'option') ?></a>
 										</div>
 										<div class="block-footer__email is-invisible">
 											<strong>email:</strong>
