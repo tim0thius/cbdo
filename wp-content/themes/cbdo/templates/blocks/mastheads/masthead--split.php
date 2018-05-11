@@ -6,7 +6,7 @@
 					<h2 class="block-masthead__headline"><?= the_title() ?></h2>
 					<hr class="block-masthead__divider">
 					<a href="/contact" class="block-masthead__calltoaction action__show-contact">set up an appointment</a>
-					<span class="block-masthead__subtext">or call <a href="tel:4153341010">{{ the_field('phone_albany', 'option') }}</a></span>
+					<span class="block-masthead__subtext">or call <a href="tel:{{ the_field('phone_albany', 'option') }}">{{ the_field('phone_albany', 'option') }}</a></span>
 					<img class="block-masthead__do-symbol" src="/wp-content/themes/cbdo/assets/images/DO_Symbol_WHITE.svg" alt="">
 				</div>				
 			</div><!-- 
