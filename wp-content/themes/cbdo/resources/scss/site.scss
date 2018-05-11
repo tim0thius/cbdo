@@ -55,6 +55,10 @@ strong {
 }
 #wrapper {
 	// @include flex(stretch, space-between, column);
+	@media screen and ( max-width: $LAP_MAX ) {
+		overflow: hidden;
+	}
+	
 }
 .section {
 	&--accent {
