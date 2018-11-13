@@ -18,6 +18,8 @@
 	text-transform: uppercase;
 }
 .block-footer__locations {
+	margin-top: 24px;
+
 	.grid__item {
 		margin: 0;
 	}
@@ -28,7 +30,7 @@
 	}
 }
 .block-footer__phone {
-	margin-top: 30px;
+	// margin-top: 30px;
 
 	a {
 		color: inherit;
@@ -40,6 +42,9 @@
 		display: none;
 	}
 	
+}
+.block-footer__city {
+	line-height: 1.5;
 }
 .block-footer__city {
 	color: $BLUE;
@@ -72,7 +77,8 @@
 	font-family: $SAN-SERIF;
 
 	@media screen and ( min-width: $DESK ) {
-		max-width: 330px;
+		max-width: 100%;
+		padding-right: 30px;
 	}
 
 	#ninja_forms_required_items, .nf-field-container {
