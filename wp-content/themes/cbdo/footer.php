@@ -10,8 +10,6 @@
 				<div class="block-footer__divider"></div>
 			</div>
 			<div class="grid__item one-third portable--one-whole">
-<!-- 				<h2 class="block-footer__heading">Contact</h2>
-				<div class="block-footer__divider"></div> -->
 				<div class="block-footer__contact">
 					<?php 
 						$form_id = get_field('footer_form_id', 'option');
@@ -24,8 +22,6 @@
 			</div><!-- 
 		 --><div class="grid__item one-half portable--one-whole">
 				<div class="block-footer__locations">
-			 	<!-- 	<h2 class="block-footer__heading">Locations</h2>
-			 		<div class="block-footer__divider"></div> -->
 					<div class="grid">
 						<div class="grid__item one-whole">
 
