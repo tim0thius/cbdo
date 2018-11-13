@@ -4,10 +4,14 @@
 <footer class="block-footer section section--contained" role="contentinfo">
 	<div class="block-footer__inner section__inner">
 		
-		<div class="grid grid--center">
-			<div class="grid__item one-third portable--one-whole">
+		<div class="grid grid--center grid--full">
+			<div class="grid__item five-sixths portable--one-whole">
 				<h2 class="block-footer__heading">Contact</h2>
 				<div class="block-footer__divider"></div>
+			</div>
+			<div class="grid__item one-third portable--one-whole">
+<!-- 				<h2 class="block-footer__heading">Contact</h2>
+				<div class="block-footer__divider"></div> -->
 				<div class="block-footer__contact">
 					<?php 
 						$form_id = get_field('footer_form_id', 'option');
@@ -20,19 +24,22 @@
 			</div><!-- 
 		 --><div class="grid__item one-half portable--one-whole">
 				<div class="block-footer__locations">
-			 		<h2 class="block-footer__heading">Locations</h2>
-			 		<div class="block-footer__divider"></div>
+			 	<!-- 	<h2 class="block-footer__heading">Locations</h2>
+			 		<div class="block-footer__divider"></div> -->
 					<div class="grid">
 						<div class="grid__item one-whole">
 
 							<div class="grid">
-								<div class="grid__item one-whole">
-									<div class="block-footer__city">
-										Albany Office
-									</div>
+								<div class="grid__item one-half portable--one-whole">
+									<img class="block-footer__map" src="https://maps.googleapis.com/maps/api/staticmap?center=1821+Wilshire+Blvd+Suite+306,Santa+Monica,CA&zoom=13&size=600x680&maptype=roadmap
+				&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:0x37dcd4%7Clabel:G%7C34.0305817,-118.4868991
+				&key=AIzaSyBpGdpNvREFGnPgxRa-4ktqImORQAYZgPw" alt="">
 								</div><!-- 
 								 --><div class="grid__item one-half portable--one-whole">
 									<div class="block-footer__copy">
+										<div class="block-footer__city">
+											Los Angeles Office
+										</div>
 										
 										<div class="block-footer__address">
 											<?= the_field('street_albany', 'option') ?><br/><?= the_field('citystatezip_albany', 'option') ?>
@@ -40,55 +47,14 @@
 										<div class="block-footer__phone">
 											<a href="tel:<?= the_field('phone_albany', 'option') ?>"><strong>Phone:</strong> <?= the_field('phone_albany', 'option') ?></a>
 										</div>
-										<div class="block-footer__fax">
+<!-- 										<div class="block-footer__fax">
 											<a><strong>Fax:</strong> <?= the_field('fax_albany', 'option') ?></a>
-										</div>
-										<div class="block-footer__email">
+										</div> -->
+<!-- 										<div class="block-footer__email">
 											<strong>email:</strong> <?= the_field('email_albany', 'option') ?>
-										</div>						
+										</div>	 -->					
 									</div>
-								</div><!-- 
-								 --><div class="grid__item one-half portable--one-whole">
-									<img class="block-footer__map" src="https://maps.googleapis.com/maps/api/staticmap?center=902+Santa+Fe+Avenue,Albany,CA&zoom=13&size=600x300&maptype=roadmap
-				&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:0x37dcd4%7Clabel:G%7C37.8905356,-122.2890289
-				&markers=color:red%7Clabel:C%7C40.718217,-73.998284
-				&key=AIzaSyBpGdpNvREFGnPgxRa-4ktqImORQAYZgPw" alt="">
 								</div>
-							</div>
-
-						</div><!-- 
-						 --><div class="grid__item one-whole">
-						 	<div class="grid">
-								<div class="grid__item one-whole">
-									<div class="block-footer__divider"></div>
-									<div class="block-footer__city">
-										San Francisco Office (Fridays)
-									</div>
-								</div><!-- 
-								 --><div class="grid__item one-half portable--one-whole">
-									<div class="block-footer__copy">
-										
-										<div class="block-footer__address">
-											<?= the_field('street_sanfran', 'option') ?><br/><?= the_field('citystatezip_sanfran', 'option') ?>
-										</div>
-										<div class="block-footer__phone">
-											<a href="tel:<?= the_field('phone_sanfran', 'option') ?>"><strong>Phone:</strong> <?= the_field('phone_sanfran', 'option') ?></a>
-										</div>
-										<div class="block-footer__fax">
-											<a><strong>Fax:</strong> <?= the_field('fax_sanfran', 'option') ?></a>
-										</div>
-										<div class="block-footer__email is-invisible">
-											<strong>email:</strong>
-										</div>	
-																	
-									</div>
-								</div><!-- 
-								 --><div class="grid__item one-half portable--one-whole">
-									<img class="block-footer__map" src="https://maps.googleapis.com/maps/api/staticmap?center=661+Chenery+Street,San+Francisco,CA&zoom=13&size=600x300&maptype=roadmap
-		&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:0x37dcd4%7Clabel:G%7C37.7344428,-122.4352915
-		&markers=color:red%7Clabel:C%7C40.718217,-73.998284
-		&key=AIzaSyBpGdpNvREFGnPgxRa-4ktqImORQAYZgPw" alt="">
-								</div>	
 							</div>
 						</div>
 					</div>
