@@ -1,0 +1,57 @@
+.entry-title {
+	color: $BLUE;
+	font-family: $H2_FONT;
+	font-size: $H2_SIZE;
+	margin-bottom: 15px;
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+.entry-content {
+	padding: 0 60px 30px;
+
+	@media screen and ( max-width: $LAP_MAX ) {
+		padding: 0  30px 30px;
+	}
+
+	p {
+		color: $DARK_GREY;
+		font-family: $P_FONT;
+		font-size: $P_SIZE;
+		line-height: 36px;
+		margin-bottom: 30px;
+
+		b {
+			font-style: italic;
+		}
+	}
+
+	a.more-link {
+				color: $BLUE;
+				font-family: $A_FONT;
+				font-size: 20px;
+				opacity: 1;
+				text-decoration: none;
+				transition: all .3s;
+
+				&:hover {
+					opacity: .7;
+				}				
+			}
+}
+.entry-image {
+	width: 100%;
+	max-width: 100%;
+}
+.entry-date {
+	color: #aaa;
+	display: block;
+	font-family: $A_FONT;
+	font-size: 14px;
+	letter-spacing: .2em;
+	line-height: 1;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}

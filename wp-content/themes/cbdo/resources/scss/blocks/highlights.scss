@@ -7,6 +7,14 @@
 			@include is_main_section;
 		}
 		
+	}
+	&.is-single {
+
+		@media screen and ( min-width: $DESK ) {
+			.section__inner {
+				margin-top: -500px;
+			}
+		}
 		
 	}
 
