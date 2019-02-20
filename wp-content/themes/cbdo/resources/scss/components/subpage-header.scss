@@ -11,6 +11,12 @@
 	@media screen and ( min-width: $LAP_MAX ) {
 		padding-left: 30px;
 	}
+
+	&.is-single {
+		@media screen and ( min-width: $DESK ) {
+			min-height: 500px;
+		}
+	}
 	
 	
 }

@@ -9,6 +9,7 @@
 					<div class="block-highlight__subtext">
 						<span class="block-highlight__patient-download-heading"><strong>{{ the_field('new_patient_download_heading') }}</strong>{{ the_field('new_patient_download_text') }}</span>	
 						<a target="_blank" href="{{ the_field('new_patient_download_link') }}" class="block-highlight__patient-download-link"><img class="block-masthead__pdf-icon" src="/wp-content/themes/cbdo/assets/images/icon_pdf.svg" alt=""><span class="block-masthead__patient-download-link-text">{{ the_field('new_patient_download_link_text') }}</span></a>		
+						<a target="_blank" href="{{ the_field('new_patient_download_link_child') }}" class="block-highlight__patient-download-link"><img class="block-masthead__pdf-icon" src="/wp-content/themes/cbdo/assets/images/icon_pdf.svg" alt=""><span class="block-masthead__patient-download-link-text">{{ the_field('new_patient_download_link_text_child') }}</span></a>		
 					</div>
 					
 				@endif
