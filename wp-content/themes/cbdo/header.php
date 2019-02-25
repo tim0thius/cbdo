@@ -14,7 +14,7 @@
 				<div class="grid__item nine-tenths desk--one-third">
 					<div id="block-header__branding">
 						<a class="block-header__sitelink" href="<?php echo site_url(); ?>">
-							<img src="/wp-content/themes/cbdo/assets/images/logo.svg" alt="Official Website of Christopher Brown DO">
+							<img src="/wp-content/themes/cbdo/assets/images/logo.svg" alt="Christopher Brown Doctor of Osteopathy">
 						</a>
 					</div>	
 				</div><!-- 
