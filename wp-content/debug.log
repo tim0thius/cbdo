@@ -1,4 +1,0 @@
-[21-Feb-2019 11:36:39 UTC] PHP Notice:  Undefined variable: count in /app/public/wp-content/plugins/blade/storage/views/f992345ee05575a671818eb0268627ca on line 20
-[21-Feb-2019 11:36:49 UTC] PHP Notice:  Only variables should be assigned by reference in /app/public/wp-content/themes/cbdo/comments.php on line 6
-[21-Feb-2019 11:36:49 UTC] PHP Notice:  Only variables should be passed by reference in /app/public/wp-content/themes/cbdo/functions/blankslate.php on line 62
-[21-Feb-2019 11:36:49 UTC] PHP Notice:  Only variables should be assigned by reference in /app/public/wp-content/themes/cbdo/functions/blankslate.php on line 62
